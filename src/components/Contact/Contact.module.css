@@ -1,0 +1,52 @@
+.contactDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerName,
+.containerNumber {
+  display: flex;
+  align-items: center;
+}
+
+.containerName p,
+.containerNumber p {
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 14px;
+}
+
+.deleteBtn:hover {
+  background-color: #e60000;
+  transform: scale(1.05);
+}
+
+.deleteBtn:focus {
+  outline: 2px solid #ff4d4d;
+}
+
+.name,
+.number {
+  font-size: 16px;
+  font-weight: bold;
+}

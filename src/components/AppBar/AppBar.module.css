@@ -1,0 +1,11 @@
+.header {
+  background-color: #515d61;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a363b;
+  margin: 0;
+  padding: 0;
+}

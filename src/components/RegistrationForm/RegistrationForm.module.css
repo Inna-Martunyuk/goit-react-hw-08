@@ -1,0 +1,88 @@
+.form {
+  width: 100%;
+  background-color: #9ca4ba;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  text-align: left;
+}
+.label input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #2a363b;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.label input:focus {
+  border-color: #4f5669;
+  outline: none;
+  transform: translateY(-5px);
+}
+
+.label input:focus ~ span {
+  color: #4f5669;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.label span {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #bbb;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.error {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #686886;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #2a363b;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  background-color: #1d252e;
+  transform: scale(0.98);
+}
+.title {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

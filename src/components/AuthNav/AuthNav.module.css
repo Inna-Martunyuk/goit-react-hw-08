@@ -1,0 +1,12 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+}
+
+.link:hover, link:active {
+  color: #e84a5f;
+}
