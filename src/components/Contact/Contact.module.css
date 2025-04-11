@@ -1,52 +1,57 @@
 .contactDiv {
+  background-color: #2f2f2f; 
+  border-radius: 16px;
+  padding: 20px;
+  margin: 16px 0;
+  color: #f1f1f1; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   width: 300px;           
+  height: 100px;         
+  overflow: hidden;       
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  margin: 15px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
+}
+
+.contactDiv:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.containerName,
-.containerNumber {
+.containerName, .containerNumber {
   display: flex;
   align-items: center;
+  gap: 10px;
+  color: #e0e0e0;
 }
 
-.containerName p,
-.containerNumber p {
-  margin-left: 10px;
+.name, .number {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .btn {
-  background-color: #ff4d4d;
-  color: white;
+  padding: 10px 16px;
   border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.deleteBtn {
+  background-color: #d9363e;
+  color: white;
 }
 
 .deleteBtn:hover {
-  background-color: #e60000;
-  transform: scale(1.05);
-}
-
-.deleteBtn:focus {
-  outline: 2px solid #ff4d4d;
-}
-
-.name,
-.number {
-  font-size: 16px;
-  font-weight: bold;
+  background-color: #a4282e;
 }
